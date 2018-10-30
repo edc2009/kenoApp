@@ -12,7 +12,7 @@ class BackgroundColor: UIButton {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.backgroundColor = UIColor.blue.cgColor
+        backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
 
 }

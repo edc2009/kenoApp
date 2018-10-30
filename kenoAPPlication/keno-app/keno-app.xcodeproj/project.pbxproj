@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83DEC9FF2187FA8200B39568 /* randomNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEC9FE2187FA8200B39568 /* randomNumbers.swift */; };
 		83F712652183B7D400D95480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F712642183B7D400D95480 /* AppDelegate.swift */; };
-		83F712672183B7D400D95480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F712662183B7D400D95480 /* ViewController.swift */; };
+		83F712672183B7D400D95480 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F712662183B7D400D95480 /* MainVC.swift */; };
 		83F7126A2183B7D400D95480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F712682183B7D400D95480 /* Main.storyboard */; };
 		83F7126C2183B7D400D95480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F7126B2183B7D400D95480 /* Assets.xcassets */; };
 		83F7126F2183B7D400D95480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F7126D2183B7D400D95480 /* LaunchScreen.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83DEC9FE2187FA8200B39568 /* randomNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomNumbers.swift; sourceTree = "<group>"; };
 		83F712612183B7D400D95480 /* keno-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keno-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F712642183B7D400D95480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83F712662183B7D400D95480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83F712662183B7D400D95480 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		83F712692183B7D400D95480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83F7126B2183B7D400D95480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F7126E2183B7D400D95480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83DEC9F82187D85400B39568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83F712662183B7D400D95480 /* MainVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83DEC9F92187E02400B39568 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83DEC9FE2187FA8200B39568 /* randomNumbers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		83F712582183B7D400D95480 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +74,10 @@
 		83F712632183B7D400D95480 /* keno-app */ = {
 			isa = PBXGroup;
 			children = (
+				83DEC9F92187E02400B39568 /* Model */,
+				83DEC9F82187D85400B39568 /* Views */,
 				83F712762183EF0600D95480 /* classes */,
 				83F712642183B7D400D95480 /* AppDelegate.swift */,
-				83F712662183B7D400D95480 /* ViewController.swift */,
 				83F712682183B7D400D95480 /* Main.storyboard */,
 				83F7126B2183B7D400D95480 /* Assets.xcassets */,
 				83F7126D2183B7D400D95480 /* LaunchScreen.storyboard */,
@@ -146,9 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F712672183B7D400D95480 /* ViewController.swift in Sources */,
+				83F712672183B7D400D95480 /* MainVC.swift in Sources */,
 				83F712782183EF2100D95480 /* BackgroundColor.swift in Sources */,
 				83F712652183B7D400D95480 /* AppDelegate.swift in Sources */,
+				83DEC9FF2187FA8200B39568 /* randomNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
